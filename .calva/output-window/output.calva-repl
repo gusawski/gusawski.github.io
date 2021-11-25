@@ -1,0 +1,974 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.8.3"]' -- update-in :dependencies conj '[cider/piggieback,"0.5.2"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.26.0"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.piggieback/wrap-cljs-repl"]' -- with-profile +dev repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: Leiningen + Figwheel Main...
+;   The Calva Connection Log might have more connection progress information.
+; Starting cljs repl for: Leiningen + Figwheel Main...
+; CLJS REPL ready to connect. Please, start your ClojureScript app.
+;   Open the app on this URL: http://localhost:9500
+;   The CLJS REPL will connect when your app is running.
+; Cljs builds started
+; Connected session: cljs, repl: dev
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+clj꞉cljs.user꞉> 
+(js/alert "davs!")
+nil
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+{:text "Gustav styrer!"}
+cljs꞉website.core꞉> 
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.662 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.44 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.401 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.436 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.407 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.399 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.467 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.42 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.456 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.133 seconds.
+[Figwheel:WARNING] Compile Exception: Assert failed: file:/home/gustav/clj-prj/website.core/src/website/komponenter.cljs does not provide a namespace
+(first provides)  
+[Figwheel:SEVERE] java.lang.AssertionError: Assert failed: file:/home/gustav/clj-prj/website.core/src/website/komponenter.cljs does not provide a namespace
+(first provides)
+nil
+cljs꞉website.komponenter꞉> 
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel:WARNING] Compile Warning   src/website/komponenter.cljs   line:17  column:17
+
+  Use of undeclared Var website.komponenter/app-state
+
+  12     [:p "I include simple-component."]
+  13     [simple-component]])
+  14  
+  15  (defn hello-world []
+  16    [:div
+  17     [:h1 (:text @app-state)]
+                      ^---
+  18     [simple-parent]
+  19     [:h3 "Proev at tryk paa space, men der sker ikke noget endnu"]])
+
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.597 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel:WARNING] Compile Warning   /home/gustav/clj-prj/website.core/src/website/core.cljs   line:19  column:17
+
+  Use of undeclared Var website.core/hello-world
+
+  14  
+  15  (defn get-app-element []
+  16    (gdom/getElement "app"))
+  17  
+  18  (defn mount [el]
+  19    (rdom/render [hello-world] el))
+                      ^---
+  20  
+  21  (defn mount-app-element []
+  22    (when-let [el (get-app-element)]
+  23      (mount el)))
+  24  
+
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.616 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.46 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.165 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.136 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.23 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel:WARNING] Compile Warning   /home/gustav/clj-prj/website.core/src/website/core.cljs   line:13  column:17
+
+  Use of undeclared Var website.komponenter/hello-world
+
+   8  
+   9  (defn get-app-element []
+  10    (gdom/getElement "app"))
+  11  
+  12  (defn mount [el]
+  13    (rdom/render [web/hello-world] el))
+                      ^---
+  14  
+  15  (defn mount-app-element []
+  16    (when-let [el (get-app-element)]
+  17      (mount el)))
+  18  
+
+[Figwheel] Failed to compile build dev in 0.222 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.179 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.168 seconds.
+[Figwheel:WARNING] Compile Exception: Assert failed: file:/home/gustav/clj-prj/website.core/src/website/beregninger.cljs does not provide a namespace
+(first provides)  
+[Figwheel:SEVERE] java.lang.AssertionError: Assert failed: file:/home/gustav/clj-prj/website.core/src/website/beregninger.cljs does not provide a namespace
+(first provides)
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.193 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.15 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.152 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.186 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.158 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.171 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.199 seconds.
+[Figwheel:WARNING] Could not Analyze: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs  test/website/core_test.cljs   
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Invalid :refer, var website.core/multiply does not exist in file test/website/core_test.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.599 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.404 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.404 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.373 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.076 seconds.
+[Figwheel:WARNING] Could not Analyze   src/website/komponenter.cljs   line:1  column:1
+
+  Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+
+  1  (ns website.komponenter
+     ^---
+  2    (:require [reagent.core :as reagent :as r]
+  3              [website.beregninger :as beregninger]))
+  4  
+  5  ;; define your app data so that it doesn't get over-written on reload
+  6  (defonce app-state (atom {:text "Hello world!"}))
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.033 seconds.
+[Figwheel:WARNING] Could not Analyze   src/website/komponenter.cljs   line:1  column:1
+
+  Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+
+  1  (ns website.komponenter
+     ^---
+  2    (:require [reagent.core :as reagent :as r]
+  3              [website.beregninger :as beregninger]))
+  4  
+  5  ;; define your app data so that it doesn't get over-written on reload
+  6  (defonce app-state (atom {:text "Hello world!"}))
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.02 seconds.
+[Figwheel:WARNING] Could not Analyze   src/website/komponenter.cljs   line:1  column:1
+
+  Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+
+  1  (ns website.komponenter
+     ^---
+  2    (:require [reagent.core :as reagent :as r]
+  3              [website.beregninger :as beregninger]))
+  4  
+  5  ;; define your app data so that it doesn't get over-written on reload
+  6  (defonce app-state (atom {:text "Hello world!"}))
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.019 seconds.
+[Figwheel:WARNING] Could not Analyze   src/website/komponenter.cljs   line:1  column:1
+
+  Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+
+  1  (ns website.komponenter
+     ^---
+  2    (:require [reagent.core :as reagent :as r]
+  3              [website.beregninger :as beregninger]))
+  4  
+  5  ;; define your app data so that it doesn't get over-written on reload
+  6  (defonce app-state (atom {:text "Hello world!"}))
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: Each of :as and :refer options may only be specified once in :require / :require-macros; offending spec: [reagent.core :as reagent :as r] at line 1 src/website/komponenter.cljs
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.387 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.384 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.395 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.413 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.42 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+#'website.komponenter/knap
+
+cljs꞉website.komponenter꞉> 
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel:WARNING] Compile Warning   src/website/komponenter.cljs   line:19  column:12
+
+  Use of undeclared Var website.komponenter/style
+
+  14  
+  15  (defn indhold []
+  16    [:div
+  17     [:p (str "Current Score is: " (beregninger/current-score))]
+  18     [knap]]
+  19    [:input (style {:size 100}){:type "button" :value "Click me!"
+                 ^---
+  20              :on-click #(swap! click-count inc)}])
+  21  
+  22  (defn start-komponent []
+  23    [:div
+  24     [:h1 (:text @app-state)]
+
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.395 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel:WARNING] Compile Warning   src/website/komponenter.cljs   line:19  column:12
+
+  Use of undeclared Var website.komponenter/style
+
+  14  
+  15  (defn indhold []
+  16    [:div
+  17     [:p (str "Current Score is: " (beregninger/current-score))]
+  18     [knap]]
+  19    [:input {style {:size 100}}{:type "button" :value "Click me!"
+                 ^---
+  20             :on-click #(swap! click-count inc)}])
+  21  
+  22  (defn start-komponent []
+  23    [:div
+  24     [:h1 (:text @app-state)]
+
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.396 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.363 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.428 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.444 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.419 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.433 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.497 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.422 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.384 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.5 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.372 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.405 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+nil
+cljs꞉website.komponenter꞉> 
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.417 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.408 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.162 seconds.
+[Figwheel:WARNING] Could not Read   src/website/komponenter.cljs   line:10  column:1
+
+  Unexpected EOF while reading item 6 of list, starting at line 10 and column 1.
+
+   5  ;; define your app data so that it doesn't get over-written on reload
+   6  (defonce app-state (atom {:text "Click-counter!"}))
+   7  
+   8  (def click-count (r/atom 0))
+   9  
+  10  (defn knap []
+      ^---
+  11    [:input {:type "button" :value "Click me!"
+  12             :style {:height 100
+  13                     :width 200
+  14                     :background-color :black
+  15                     :color :white
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: /home/gustav/clj-prj/website.core/src/website/komponenter.cljs [line 28, col 15] Unexpected EOF while reading item 6 of list, starting at line 10 and column 1.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.166 seconds.
+[Figwheel:WARNING] Could not Read   src/website/komponenter.cljs   line:10  column:1
+
+  Unexpected EOF while reading item 6 of list, starting at line 10 and column 1.
+
+   5  ;; define your app data so that it doesn't get over-written on reload
+   6  (defonce app-state (atom {:text "Click-counter!"}))
+   7  
+   8  (def click-count (r/atom 0))
+   9  
+  10  (defn knap []
+      ^---
+  11    [:input {:type "button" :value "Click me!"
+  12             :style {:height 100
+  13                     :width 200
+  14                     :background-color :black
+  15                     :color :white
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: /home/gustav/clj-prj/website.core/src/website/komponenter.cljs [line 28, col 15] Unexpected EOF while reading item 6 of list, starting at line 10 and column 1.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.223 seconds.
+[Figwheel:WARNING] Could not Read   src/website/komponenter.cljs   line:10  column:1
+
+  Unexpected EOF while reading item 6 of list, starting at line 10 and column 1.
+
+   5  ;; define your app data so that it doesn't get over-written on reload
+   6  (defonce app-state (atom {:text "Click-counter!"}))
+   7  
+   8  (def click-count (r/atom 0))
+   9  
+  10  (defn knap []
+      ^---
+  11    [:input {:type "button" :value "Click me!"
+  12             :style {:height 100
+  13                     :width 200
+  14                     :background-color :black
+  15                     :color :white
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: /home/gustav/clj-prj/website.core/src/website/komponenter.cljs [line 28, col 15] Unexpected EOF while reading item 6 of list, starting at line 10 and column 1.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.368 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.37 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.378 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.416 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+highscore 0
+Ones  1 Hundreds  0 Thousands  0
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.458 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.382 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.402 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.38 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.399 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.435 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.394 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.407 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.385 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.377 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.399 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.476 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+highscore 0
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.445 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.37 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.435 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.422 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.42 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.391 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.393 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.375 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.377 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.368 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.373 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.397 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.378 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.177 seconds.
+[Figwheel:WARNING] Could not Read   src/website/komponenter.cljs   line:14  column:34
+
+  The map literal starting with :height on line 10 column 19 contains 11 form(s). Map literals must contain an even number of forms.
+
+   9    [:input {:type "button" :value ""
+  10             :style {:height 150
+  11                     :width 500
+  12                     :background-color :dark grey
+  13                     :color :white
+  14                     :font-size 30}
+                                       ^---
+  15             :on-click beregninger/min-funktion}])
+  16  
+  17  (defn indhold []
+  18    [:div
+  19     [:p "Your highscore is: " (beregninger/high-funktion)]
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: /home/gustav/clj-prj/website.core/src/website/komponenter.cljs [line 14, col 34] The map literal starting with :height on line 10 column 19 contains 11 form(s). Map literals must contain an even number of forms.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.398 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.391 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.445 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.403 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.384 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.439 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.561 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.406 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.375 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.434 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.437 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.414 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.384 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.383 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.378 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.172 seconds.
+[Figwheel:WARNING] Could not Read   src/website/komponenter.cljs   line:15  column:47
+
+  The map literal starting with :type on line 9 column 11 contains 7 form(s). Map literals must contain an even number of forms.
+
+  10             :style {:height 150
+  11                     :width 500
+  12                     :background-color :black
+  13                     :color :white
+  14                     :font-size 30}
+  15             :on-click beregninger/min-funktion}])
+                                                    ^---
+  16  
+  17  (defn indhold []
+  18    [:div
+  19     [:p " Your highscore is: " (beregninger/high-funktion)]
+  20     [:p " Current Score is: " (beregninger/current-score)]
+
+[Figwheel:SEVERE] clojure.lang.ExceptionInfo: /home/gustav/clj-prj/website.core/src/website/komponenter.cljs [line 15, col 47] The map literal starting with :type on line 9 column 11 contains 7 form(s). Map literals must contain an even number of forms.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.377 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.396 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.384 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.423 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.411 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.434 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.373 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.47 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.475 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.39 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.42 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.462 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.414 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel:WARNING] Compile Warning   src/website/komponenter.cljs   line:34  column:44
+
+  Use of undeclared Var website.komponenter/tastely
+
+  29     [indhold]])
+  30  
+  31  (defn tastelyt [e]
+  32    (js/console.log e))
+  33  
+  34  (js/document.body.addEventListener "keyup" tastely)
+                                                 ^---
+
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.513 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.429 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.42 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.41 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.449 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.492 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.38 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.385 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.404 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.43 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.407 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.554 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+highscore 16
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.132 seconds.
+[Figwheel:WARNING] Could not Compile   src/website/komponenter.cljs   line:35  column:1
+
+  Parameter declaration "js/document.body.addEventListener" should be a vector
+
+  30  (defn tastelyt [e]
+  31    (when (= 32 (.-keyCode e))
+  32      (beregninger/min-funktion)))
+  33  
+  34  
+  35  (defn add-listeners
+      ^---
+  36    (js/document.body.addEventListener "keyup" tastelyt))
+
+[Figwheel:SEVERE] java.lang.IllegalArgumentException: Parameter declaration "js/document.body.addEventListener" should be a vector
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Failed to compile build dev in 0.143 seconds.
+[Figwheel:WARNING] Could not Compile   src/website/komponenter.cljs   line:35  column:1
+
+  Parameter declaration "js/document.body.addEventListener" should be a vector
+
+  30  (defn tastelyt [e]
+  31    (when (= 32 (.-keyCode e))
+  32      (beregninger/min-funktion)))
+  33  
+  34  
+  35  (defn add-listeners
+      ^---
+  36    (js/document.body.addEventListener "keyup" tastelyt))
+  37  
+  38  (defonce initialize
+  39    (do (add-listeners)
+  40        true))
+
+[Figwheel:SEVERE] java.lang.IllegalArgumentException: Parameter declaration "js/document.body.addEventListener" should be a vector
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.451 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.386 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.392 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.484 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.466 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Marty]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel:WARNING] Compile Warning   src/website/komponenter.cljs   line:19  column:9
+
+  Use of undeclared Var website.komponenter/style
+
+  14                     :font-size 30}
+  15             :on-click beregninger/min-funktion}])
+  16  
+  17  (defn indhold []
+  18    [:div
+  19     [:p {style {:font-size 20}} " Your highscore is: " (beregninger/high-funktion)]
+              ^---
+  20     [:p " Current Score is: " (beregninger/current-score)]
+  21     [:p {:style {:font-size 30}}
+  22      " Ones: " @beregninger/ones "   Hundreds: " @beregninger/hundreds "   Thousands: " @beregninger/thousands]
+  23     [knap]]) 
+  24  
+
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.421 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.565 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+[Session:-----:Marty]
+  This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.408 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Marty]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.469 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Marty]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.403 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Marty]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.417 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Marty]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.379 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Marty]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.468 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.403 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.383 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.499 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.387 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.414 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.415 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.436 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Figwheel] Compiling build dev to "resources/public/cljs-out/dev-main.js"
+[Figwheel] Successfully compiled build dev to "resources/public/cljs-out/dev-main.js" in 0.452 seconds.
+[Figwheel] Outputting main file: resources/public/cljs-out/dev-main-auto-testing.js
+[Session:-----:Emilio]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
+[Session:-----:Cory]
+ This text is printed from src/website/core.cljs. Go ahead and edit it and see reloading in action.
