@@ -11,4 +11,6 @@ pom.xml
 .nrepl-port
 .cpcache/
 .rebel_readline_history
-/resources/cljs-out/
+/resources/public/cljs-out/dev/
+/resources/cljs-out/dev-main-auto-testing.js
+.calva/
