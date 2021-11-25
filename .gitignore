@@ -16,3 +16,5 @@ pom.xml
 .calva/
 resources/public/cljs-out/dev-main-auto-testing.js
 .calva/output-window/output.calva-repl
+.clj-kondo/.cache
+.lsp/.cache
